@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'HelveticaNow';
+  src: url('./assets/fonts/HelveticaNowDisplayLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNow';
+  src: url('./assets/fonts/HelveticaNowDisplayMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNow';
+  src: url('./assets/fonts/HelveticaNowDisplayXBd.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@theme {
+  --font-helvetica: 'HelveticaNow', sans-serif;
+}
