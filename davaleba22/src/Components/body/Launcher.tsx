@@ -12,7 +12,7 @@ export default function Launcher() {
                     <p className = "font-extrabold text-[41.57px] leading-[120%] w-47.5 max-[500px]:text-[25px] max-[500px]:w-auto">Games Launcher</p>
                 </div>
                 <p className = "text-[32px] font-medium mb-16 max-w-81.5 max-[1200px]:mb-0 max-[400px]:text-[16px]">Todos os seus jogos em um so lugar</p>
-                <button className = "bg-[#FCAF17] rounded-lg py-3.75 px-12 font-extrabold text-[20px]">Download</button>
+                <button className = "bg-[#FCAF17] rounded-lg py-3.75 px-12 font-extrabold text-[20px] cursor-pointer">Download</button>
             </div>
             <img className = "max-[1350px]:w-130" src={launcherImg} alt="" />
         </div>

@@ -32,7 +32,7 @@ export default function GameList() {
         </div>
 
         <div>
-          <button className="text-bold text-[20px] bg-[#FCAF17] py-3.75 px-12 rounded-lg max-[450px]:text-[15px]">
+          <button className="text-bold text-[20px] bg-[#FCAF17] py-3.75 px-12 rounded-lg max-[450px]:text-[15px] cursor-pointer">
             Ver todos es jogos
           </button>
         </div>

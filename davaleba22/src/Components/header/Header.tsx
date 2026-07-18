@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [menuVis, setMenuVis] = useState(false);
   const navItemStyle =
-    "flex items-center gap-[6px] text-[white] font-medium cursor-pointer";
+    "flex items-center gap-[6px] text-[white] font-medium cursor-pointer group";
   const headBtnStyle =
     "w-12 h-12 bg-[#5A5A5A] flex items-center justify-center rounded-[50%] cursor-pointer max-[750px]:w-10 max-[750px]:h-10";
   return (
@@ -19,7 +19,7 @@ export default function Header() {
         <div className="flex gap-11.75 items-center max-[750px]:gap-8 max-[600px]:gap-0">
           <button
             onClick={() => setMenuVis(true)}
-            className="hidden max-[600px]:inline-block"
+            className="hidden max-[600px]:inline-block cursor-pointer"
           >
             <img src={sandwich} alt="" />
           </button>
@@ -33,7 +33,7 @@ export default function Header() {
           <nav className="flex items-center gap-6 max-[600px]:hidden">
             <a className={navItemStyle}>
               <p>Jogos</p>
-              <img src={arrow} alt="" />
+              <img src={arrow} className = "group-hover:rotate-180 transition duration-150 ease-in-out"alt="" />
             </a>
             <a className={navItemStyle}>Loja</a>
             <a className={navItemStyle}>Ajuda</a>

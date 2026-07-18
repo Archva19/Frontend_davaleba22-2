@@ -16,19 +16,19 @@ export default function SideMenu({ menuVis, closeFun }:SideMenuProps) {
 
   return (
     <>
-      <div className="flex flex-col fixed top-0 bottom-0 right-0 left-0 w-full h-full bg-[#101010] pt-10 px-12 gap-5 text-[#B1B1B1] text-[18px]">
-        <button onClick={() => closeFun()} className="w-6">
+      <div className="flex flex-col fixed top-0 bottom-0 right-0 left-0 w-full h-full bg-[#101010] pt-10 px-12 gap-5 text-[#B1B1B1] text-[18px] hover:text-[white]">
+        <button onClick={() => closeFun()} className="w-6 cursor-pointer">
           <img src={closeIcon} alt="" />
         </button>
-        <a className="flex items-center justify-between">
+        <a className="flex items-center justify-between cursor-pointer">
           <p>Jogos</p>
           <div className="flex gap-4 items-center text-[white]">
             <p>View All</p>
             <img src={rightArrow} alt="" />
           </div>
         </a>
-        <a>Loja</a>
-        <a>Ajuda</a>
+        <a className = "cursor-pointer">Loja</a>
+        <a className = "cursor-pointer">Ajuda</a>
       </div>
     </>
   );
