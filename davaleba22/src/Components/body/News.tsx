@@ -18,7 +18,7 @@ export default function News() {
   return (
     <>
       <div className="w-[80.55%] m-auto max-w-310 mb-28">
-        <p className="font-bold text-5xl text-[white] mb-10 max-[450px]:text-[30cpx]">
+        <p className="font-bold text-5xl text-[white] mb-10 max-[450px]:text-[30px]">
           Últimas Notícias
         </p>
         <div className="flex gap-10 max-[1280px]:flex-col">
